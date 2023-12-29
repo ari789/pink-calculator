@@ -45,6 +45,7 @@ button {
 
 button.big-button {
   padding: 1em 2em;
+  margin-top: 0.5em;
   border: 3px solid var(--colorShadeA);
   border-radius: 1em;
   background: var(--colorShadeE);
@@ -86,3 +87,13 @@ button.big-button:active::before {
   box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
 }
 
+button.equal {
+    float: right;
+    width: 21%;
+    padding: 130px 0px;
+  }
+
+  button.divide {
+    float: right;
+    width: 21%;
+  }
